@@ -1,0 +1,290 @@
+
+body{
+    background: #0066b2;
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight:300;
+}
+
+.all_blocks{
+    justify-content: center;
+    display:flex;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction:row;
+    
+}
+
+a {
+    color:gray;
+    text-decoration:none;
+}
+
+.p_orange{
+    color:orange;
+}
+.avatar{
+    display:inherit;
+}
+
+.left_block{
+    background:#1e2939;
+    padding-bottom:50px;
+}
+
+.text_left_block{
+    padding-left:25px;
+    color:black;
+}
+.avatar{
+    height:340px;
+    width:340px;
+    display:inherit;;
+}
+
+.contact_form{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:25px;
+    color:white;
+}
+.contacts{
+    margin-bottom:10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    
+}
+
+.Contact{
+    margin-bottom:5px;
+    
+}
+
+.tech_skills{
+    margin-bottom:25px;
+    color:white;
+}
+.tech_skills_title{
+    margin-bottom:10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.tech_skills_list li{
+    padding-bottom:5px;
+}
+
+.tech_skills_list li:last-child{
+    padding-bottom:0px;
+}
+
+.soft_skills{
+    margin-bottom:25px;
+    color:white;
+}
+.soft_skills_title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.Soft_skills_list li {
+    padding-bottom:5px;
+}
+
+.Soft_skills_list li:last-child{
+    padding-bottom:0px;
+}
+
+.Languages{
+    color:white;
+}
+.languages_and_levels{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    
+}
+.Languages_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+.languages_and_levels li{
+    padding-bottom:5px;
+}
+
+.languages_list li{
+    padding-right:20px;
+    text-decoration:none;
+    
+}
+
+.languages_and_levels li:last-child{
+    padding-bottom:0px;
+}
+
+.right_block{
+    padding-left:25px;
+    padding-top:25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    background:white;
+}
+
+.right_block_title {
+    margin-bottom:25px;
+    
+}
+.Full_Name{
+    margin-bottom:25px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    
+}
+
+.personal_traits_title{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.personal_traits{
+    margin-bottom:25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.We_title{
+    padding-bottom:10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.Amazon{
+    padding-bottom:5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.work_time{
+    padding-bottom:5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.Seller{
+    padding-bottom:5px;
+}
+
+.Time_Managment{
+    padding-bottom:5px;
+}
+
+.war{
+    margin-bottom:25px;
+}
+
+.Te_title{
+    padding-bottom:10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.orange{
+    color:orange;
+}
+.work_range{
+    padding-bottom:5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.Te_list li{
+    padding-bottom:5px;
+}
+
+.Te_list li:last-child{
+    padding-bottom:0px;
+    margin-bottom:25px;
+}
+
+.Education_block p{
+    padding-bottom:5px;
+}
+
+.Education_block p:last-child{
+    padding-bottom:0px;
+}
+
+.Education_title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.tech_skills_list .percent{
+    position:relative;
+    width:90%;
+    height:6px;
+    background:white;
+    margin-top:5px;
+    display:block;
+}
+
+li::before {
+    content: "•"; 
+    color: orange;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.B1:before {
+    color: #1e2939;
+}
+
+.B2:before{
+    color: #1e2939;
+}
+.Native_ru::before {
+    color: #1e2939;
+}
+
+.Native_ua::before {
+    color: #1e2939;
+}
+
+
+
+.tech_skills_list .percent div{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:orange;
+}
+
+a:hover, a:active {
+    opacity:80%;
+    color:white;
+}
